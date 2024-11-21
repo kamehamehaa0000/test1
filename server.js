@@ -13,7 +13,7 @@ app.use(
   })
 )
 app.use(bodyParser.json())
-app.use('/api', apiRoutes)
+app.use('/bfhl', apiRoutes)
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`)
